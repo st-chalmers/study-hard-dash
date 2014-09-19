@@ -45,6 +45,11 @@ img {
 
 p {
   margin: 0 0 $lineheight / 2;
+
+  &.tbc {
+    text-transform: uppercase;
+    text-align: center;
+  }
 }
 
 h1, h2, h3, h4, h5, h6 {
