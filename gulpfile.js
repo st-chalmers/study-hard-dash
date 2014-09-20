@@ -17,10 +17,5 @@ gulp.task('default', ['styles']);
 gulp.task('styles', buildSass);
 
 gulp.task('watch', function() {
-  gulp.src('stylesheets/*.scss')
-      .pipe(watch('*'))
-      .pipe(sass({
-        errLogToConsole: true
-      }))
-      .pipe(gulp.dest('./css'));
+  return gulp.watch('stylesheets/*.scss', ['styles'])
 });
