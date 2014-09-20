@@ -87,11 +87,29 @@ a {
   h1 {
     letter-spacing: 5px;
     font-weight: bold;
-    font-size: to_em(20);
+    font-size: to_em(24);
 
     .text {
-      display: inline-block;
+      display: block;
+    }
+
+    .title {
       transform: rotate(-2deg);
+      font-size: 1.1em;
+    }
+
+    em {
+      font-size: .75em;
+      transform: none !important;
+      font-weight: normal;
+      letter-spacing: 1px;
+      color: $faded;
+    }
+
+    strong {
+      transform: rotate(1deg) !important;
+      font-size: .9em;
+      letter-spacing: 3px;
     }
   }
 
