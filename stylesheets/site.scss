@@ -31,7 +31,7 @@ html {
 body {
   font: 600 #{($font-size / 16) * 1em}/#{$leading} $sans;
   width: 90%;
-  max-width: 35em;
+  max-width: 34em;
   margin: 0 auto;
 }
 
@@ -61,7 +61,8 @@ h1 {
 }
 
 h2 {
-  font-size: to_em(16);
+  font-size: to_em(22);
+  font-weight: normal;
   letter-spacing: 2px;
   margin-bottom: 1em;
 }
